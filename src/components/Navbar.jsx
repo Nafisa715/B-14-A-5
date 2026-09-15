@@ -5,7 +5,7 @@ function Navbar() {
         <button className="menu-button">☰</button>
 
         <a href="#" className="brand">
-          <span className="brand-mark">&lt;/&gt;</span>
+          <span className="brand-mark">;</span>
           <span>Dev Stack</span>
         </a>
 
@@ -17,7 +17,7 @@ function Navbar() {
           <a href="#contact">Contact</a>
         </div>
 
-        <div className="auth-buttons">
+        <div className="sign-buttons">
           <button className="sign-in">Sign In</button>
           <button className="sign-up">Sign Up</button>
         </div>
