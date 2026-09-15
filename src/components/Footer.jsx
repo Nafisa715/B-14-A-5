@@ -48,7 +48,7 @@ function Footer() {
       <div className="footer-bottom">
         <p>© 2026 Dev Stack. All rights reserved.</p>
         <div>
-          <a href="#">Privacy</a>
+          <a href="#">Privacyy</a>
           <a href="#">Terms</a>
         </div>
       </div>
