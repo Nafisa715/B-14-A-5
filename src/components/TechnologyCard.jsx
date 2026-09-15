@@ -1,7 +1,7 @@
 function TechnologyCard({ technology, isAdded, onAdd }) {
   return (
     <div className="technology-card">
-      <div className="card-top">
+      <div className="top">
         <img
           src={technology.icon}
           alt={technology.name}

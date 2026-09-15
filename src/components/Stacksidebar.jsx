@@ -1,13 +1,13 @@
 function StackSidebar({ stack, onRemove, onRemoveAll }) {
   return (
-    <aside className="stack-sidebar">
-      <div className="stack-header">
+    <aside className="sidebar">
+      <div className="header">
         <div>
-          <p className="section-label">YOUR COLLECTION</p>
+          <p className="section">YOUR COLLECTION</p>
           <h2>Your Stack</h2>
         </div>
 
-        <span className="stack-count">{stack.length}</span>
+        <span className="count">{stack.length}</span>
       </div>
 
       {stack.length === 0 ? (
@@ -19,9 +19,9 @@ function StackSidebar({ stack, onRemove, onRemoveAll }) {
           </p>
         </div>
       ) : (
-        <div className="stack-list">
+        <div className="list">
           {stack.map((technology) => (
-            <div className="stack-item" key={technology.id}>
+            <div className="item" key={technology.id}>
               <img
                 src={technology.icon}
                 alt={technology.name}
