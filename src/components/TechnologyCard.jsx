@@ -13,12 +13,12 @@ function TechnologyCard({ technology, isAdded, onAdd }) {
 
       <h3>{technology.name}</h3>
 
-      <p className="technology-description">
+      <p className="tech-des">
         {technology.description}
       </p>
 
-      <div className="technology-info">
-        <span className="category-chip">{technology.category}</span>
+      <div className="tech-info">
+        <span className="category">{technology.category}</span>
 
         <span className="difficulty">
           {technology.difficulty}
