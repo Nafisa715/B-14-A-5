@@ -5,7 +5,7 @@ import "react-toastify/dist/ReactToastify.css";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import TechnologyCard from "./components/TechnologyCard";
-import StackSidebar from "./components/StackSidebar";
+import StackSidebar from "./components/Stacksidebar";
 import Footer from "./components/Footer";
 
 function App() {
