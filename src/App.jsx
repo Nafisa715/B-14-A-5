@@ -33,12 +33,12 @@ function App() {
     );
 
     if (alreadyAdded) {
-      toast.warning(`${technology.name} is already in your stack!`);
+      toast.warning(`${tech.name} is already in your stack!`);
       return;
     }
 
     setStack([...stack, technology]);
-    toast.success(`${technology.name} added to your stack!`);
+    toast.success(`${tech.name} added to your stack!`);
   };
 
   const removeFromStack = (id) => {
@@ -67,10 +67,10 @@ function App() {
       <main>
         <Hero />
 
-        <section className="technology-section" id="technologies">
-          <div className="section-heading">
+        <section className="tech-section" id="technologies">
+          <div className="heading">
             <div>
-              <p className="section-label">EXPLORE</p>
+              <p className="label">EXPLORE</p>
               <h2>Technologies</h2>
               <p>
                 Choose the technologies you want to add to your developer
